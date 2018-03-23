@@ -1,0 +1,147 @@
+body {
+    font-family: Monda, sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: Lobster, serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: Lobster, serif;
+}
+
+h3 {
+    font-size: 16px;
+    font-family: Monda, sans-serif;
+}
+
+h4 {
+    font-size: 14px;
+    font-family: Monda, sans-serif;
+}
+
+td {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.main-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.map-block {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    min-width: 300px;
+    margin: 16px;
+}
+
+.map-view {
+    width: 100%;
+    padding-bottom: 100%;
+    margin: 0px;
+}
+
+.console-block {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    min-width: 300px;
+    margin: 16px;
+}
+
+.console-head {
+    font-weight:bold;
+    white-space: nowrap;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 4px;
+}
+
+.console-body {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.console-row {
+    display: flex;
+    margin: 8px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    white-space: nowrap;
+}
+
+.console-input {
+    font-family: Monda, monospace;
+    font-size: 14px;
+    margin: 4px;
+    min-width: 0px;
+    border: none;
+    border-bottom: 2px solid #DDD;
+    outline: none;
+    background: none;
+}
+
+.console-checkbox {
+    font-family: Monda, monospace;
+    font-size: 16px;
+    margin: 4px;
+    min-width: 0px;
+}
+
+.console-button {
+    font-family: monospace;
+    white-space: nowrap;
+    flex: none;
+    margin: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.console-select {
+    flex: none;
+    margin: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.console-select-option {
+    font-family: monospace;
+    white-space: nowrap;
+}
+
+.console-radio {
+    flex: none;
+    margin: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 12px;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-item {
+    white-space: nowrap;
+    flex: none;
+    margin: 6px;
+    font-size: 14px;
+    color: #777;
+    text-decoration: none;
+}
