@@ -114,6 +114,7 @@ td {
     background: none;
     border: 2px solid #004D85;
     border-radius: 2px;
+    outline: none;
 }
 
 .console-button:hover {
