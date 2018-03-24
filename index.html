@@ -4,7 +4,7 @@
     <head>
         <title>DeMap</title>
         <!--My Styles-->
-        <link type="text/css" rel="stylesheet" href="./style.css">
+        <link type="text/css" rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Monda|Lobster">
     </head>
@@ -65,13 +65,14 @@
                 <h3 class="console-head">Save</h3>
                 <div class="console-body">
                     <div class="console-row">
-                        PNG
-                        <input type="text" class="console-input" id="pngSize" value="2000"></input>
+                        Size
+                        <input type="text" class="console-input" id="graphicSize" value="2000"></input>
                         px
                     </div>
                     <div class="console-row">
-                        <button type="button" class="console-button" onclick="">Generate PNG</button>
-                        <button type="button" class="console-button" onclick="">Generate SVG</button>
+                        <button type="button" class="console-button" onclick="generateSVG()">Generate SVG</button>
+                        <button type="button" class="console-button" onclick="generatePNG()">Generate PNG</button>
+                        <a style="display: none" id="downloadFile">Download</button>
                     </div>
                 </div>
             </div>
@@ -89,9 +90,10 @@
         </div>
 
         <!--Scripts-->
-        <script src="./DeKit.js"></script>
-        <script src="./ColorKit.js"></script>
-        <script src="./DeMap.js"></script>
+        <script src="./lib/DeKit.js"></script>
+        <script src="./lib/ColorKit.js"></script>
+        <script src="./lib/GraphicKit.js"></script>
+        <script src="./lib/DeMap.js"></script>
         <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXEVq3MtUaiuVy1r_vPYOo2bWAc2HZqM0&callback=initMap">
         </script>

@@ -40,7 +40,7 @@ td {
     display: flex;
     flex-direction: column;
     width: 40%;
-    min-width: 300px;
+    min-width: 500px;
     margin: 16px;
 }
 
@@ -54,12 +54,12 @@ td {
     display: flex;
     flex-direction: column;
     width: 40%;
-    min-width: 300px;
+    min-width: 500px;
     margin: 16px;
 }
 
 .console-head {
-    font-weight:bold;
+    font-weight: bold;
     white-space: nowrap;
     justify-content: flex-start;
     width: 100%;
@@ -89,6 +89,7 @@ td {
     min-width: 0px;
     border: none;
     border-bottom: 2px solid #DDD;
+    border-radius: 0;
     outline: none;
     background: none;
 }
@@ -126,6 +127,15 @@ td {
     margin: 4px;
     padding-left: 4px;
     padding-right: 4px;
+}
+
+.console-download {
+    white-space: nowrap;
+    flex: none;
+    margin: 6px;
+    font-size: 14px;
+    color: #777;
+    text-decoration: none;
 }
 
 .footer {
