@@ -22,25 +22,22 @@
                     <div class="console-row">
                         <input type="text" class="console-input" id="pointNumInput" value="50"></input>
                         <input type="checkbox" class="console-checkbox" id="isIncludingConners" value="true"/>Conners</form>
-                    </div>
-                    <div class="console-row">
                         <button type="button" class="console-button" onclick="generatePoints()">Generate</button>
                         <button type="button" class="console-button" onclick="clearPoints()">Clear</button>
                     </div>
                 </div>
                 <h3 class="console-head">Delaunay</h3>
                 <div class="console-body">
-                    <h4 class="console-head">Preview</h4>
                     <div class="console-row">
                         <div id="delaunayCount"></div>
-                        <button type="button" class="console-button" onclick="generateDelaunay()">Generate</button>
+                        <button type="button" class="console-button" onclick="generateDelaunay()">Preview</button>
                         <button type="button" class="console-button" onclick="clearDelaunay()">Clear</button>
                     </div>
                     <h4 class="console-head">Color</h4>
                     <div class="console-row">
-                        #<input type="text" class="console-input" id="colorStart" value="FC466B"></input>
+                        #<input type="text" class="console-input" id="colorStart" value="4b6cb7"></input>
                         →
-                        #<input type="text" class="console-input" id="colorEnd" value="3F5EFB"></input>
+                        #<input type="text" class="console-input" id="colorEnd" value="182848"></input>
                         <select class="console-select" id="colorStep">
                             <option value ="8">8</option>
                             <option value ="16">16</option>
@@ -65,14 +62,14 @@
                 <h3 class="console-head">Save</h3>
                 <div class="console-body">
                     <div class="console-row">
-                        Size
-                        <input type="text" class="console-input" id="graphicSize" value="2000"></input>
+                        PNG
+                        <input type="text" class="console-input" id="pngSize" value="2000"></input>
                         px
                     </div>
                     <div class="console-row">
                         <button type="button" class="console-button" onclick="generateSVG()">Generate SVG</button>
                         <button type="button" class="console-button" onclick="generatePNG()">Generate PNG</button>
-                        <a style="display: none" id="downloadFile">Download</button>
+                        <a style="display: none" class="console-download" id="downloadFile">Download</a>
                     </div>
                 </div>
             </div>

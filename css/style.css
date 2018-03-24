@@ -40,7 +40,7 @@ td {
     display: flex;
     flex-direction: column;
     width: 40%;
-    min-width: 500px;
+    min-width: 460px;
     margin: 16px;
 }
 
@@ -54,7 +54,7 @@ td {
     display: flex;
     flex-direction: column;
     width: 40%;
-    min-width: 500px;
+    min-width: 460px;
     margin: 16px;
 }
 
@@ -85,10 +85,11 @@ td {
 .console-input {
     font-family: Monda, monospace;
     font-size: 14px;
+    color: #004D85;
     margin: 4px;
     min-width: 0px;
     border: none;
-    border-bottom: 2px solid #DDD;
+    border-bottom: 2px solid #004D85;
     border-radius: 0;
     outline: none;
     background: none;
@@ -98,16 +99,27 @@ td {
     font-family: Monda, monospace;
     font-size: 16px;
     margin: 4px;
-    min-width: 0px;
+    border: 2px solid #004D85;
 }
 
 .console-button {
-    font-family: monospace;
+    font-family: Monda, monospace;
+    font-size: 14px;
+    text-decoration: none;
+    color: #004D85;
     white-space: nowrap;
     flex: none;
-    margin: 4px;
-    padding-left: 4px;
-    padding-right: 4px;
+    margin: 6px;
+    padding: 0 6px;
+    background: none;
+    border: 2px solid #004D85;
+    border-radius: 2px;
+}
+
+.console-button:hover {
+    color: #FFF;
+    background: #004D85;
+    cursor:pointer;
 }
 
 .console-select {
@@ -127,15 +139,6 @@ td {
     margin: 4px;
     padding-left: 4px;
     padding-right: 4px;
-}
-
-.console-download {
-    white-space: nowrap;
-    flex: none;
-    margin: 6px;
-    font-size: 14px;
-    color: #777;
-    text-decoration: none;
 }
 
 .footer {
