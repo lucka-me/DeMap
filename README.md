@@ -27,11 +27,10 @@ Under development
 The core algorithm of generating delaunay is modified from [zhiyishou's work](https://github.com/zhiyishou/Polyer/blob/master/lib/delaunay.js) which is based on [Bowyer–Watson algorithm](https://en.wikipedia.org/wiki/Bowyer–Watson_algorithm).
 
 ## TO-DO
-1. Optimize the algorithm of generating random points
-2. Edit the points manually
-3. Generate PNG
-4. Clean the code of delaunay algorithm
-5. ...
+- [ ] Optimize the algorithm of generating random points
+- [ ] Edit the points manually
+- [ ] Generate PNG
+- [ ] Clean the code of delaunay algorithm
 
 ## License
 The source code are [licensed under MIT](./LICENSE).
