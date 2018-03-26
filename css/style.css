@@ -24,9 +24,25 @@ h4 {
     font-family: Monda, sans-serif;
 }
 
-td {
-    padding-top: 6px;
-    padding-bottom: 6px;
+button,.button {
+    font-family: Monda, monospace;
+    font-size: 14px;
+    text-decoration: none;
+    color: #004D85;
+    white-space: nowrap;
+    flex: none;
+    margin: 6px;
+    padding: 0 6px;
+    background: #FFF;
+    border: 2px solid #004D85;
+    border-radius: 2px;
+    outline: none;
+}
+
+button:hover,.button:hover {
+    color: #FFF;
+    background: #004D85;
+    cursor:pointer;
 }
 
 .main-box {
@@ -73,9 +89,9 @@ td {
     margin-left: 8px;
 }
 
-.console-row {
+.console-row,.footer-row {
     display: flex;
-    margin: 8px;
+    margin: 6px;
     flex-direction: row;
     justify-content: flex-start;
     align-items: baseline;
@@ -101,27 +117,6 @@ td {
     margin: 4px;
 }
 
-.console-button {
-    font-family: Monda, monospace;
-    font-size: 14px;
-    text-decoration: none;
-    color: #004D85;
-    white-space: nowrap;
-    flex: none;
-    margin: 6px;
-    padding: 0 6px;
-    background: none;
-    border: 2px solid #004D85;
-    border-radius: 2px;
-    outline: none;
-}
-
-.console-button:hover {
-    color: #FFF;
-    background: #004D85;
-    cursor:pointer;
-}
-
 .console-select {
     flex: none;
     margin: 4px;
@@ -143,6 +138,7 @@ td {
 
 .footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 12px;
@@ -153,7 +149,8 @@ td {
 .footer-item {
     white-space: nowrap;
     flex: none;
-    margin: 6px;
+    margin-left: 6px;
+    margin-right: 6px;
     font-size: 14px;
     color: #777;
     text-decoration: none;
