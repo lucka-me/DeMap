@@ -1,7 +1,7 @@
 <h1 align=center>DeMap</h1>
 
 <p align="center">
-  <a href="https://github.com/lucka-me/DrawDemo/releases/tag/1.1.0"><img alt="Version" src="https://img.shields.io/badge/version-0.1-yellow.svg"/></a>
+  <a href="./CHANGELOG.md"><img alt="Version" src="https://img.shields.io/badge/version-0.1.1-green.svg"/></a>
   <a href="https://lucka.moe"><img alt="Author" src="https://img.shields.io/badge/author-Lucka-2578B5.svg"/></a>
   <a href="./LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-A31F34.svg"/></a><br>
   <img alt="Safari Support" src="https://img.shields.io/badge/safari-support-green.svg"/>
@@ -25,6 +25,9 @@ Under development
 
 ### Algorithm
 The core algorithm of generating delaunay is modified from [zhiyishou's work](https://github.com/zhiyishou/Polyer/blob/master/lib/delaunay.js) which is based on [Bowyer–Watson algorithm](https://en.wikipedia.org/wiki/Bowyer–Watson_algorithm).
+
+## Changelog
+See [CHANGELOG.md](./CHANGELOG.md).
 
 ## TO-DO
 - [ ] Optimize the algorithm of generating random points
