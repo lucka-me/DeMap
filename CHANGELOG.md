@@ -1,4 +1,8 @@
 # Changelog
+## [0.1.3] - 2018-03-27
+### Fixed
+- Minor SVG issue, more precise
+
 ## [0.1.2] - 2018-03-26
 ### Added
 - China version
