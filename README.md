@@ -1,4 +1,4 @@
-<h1 align=center>DeMap</h1>
+<h1 align=center><img src="./Resource/Banner.svg" alt="DeMap"></h1>
 
 <p align="center">
   <a href="./CHANGELOG.md"><img alt="Version" src="https://img.shields.io/badge/version-0.1.3-green.svg"/></a>
