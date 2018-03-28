@@ -1,12 +1,13 @@
 <h1 align=center><img src="./Resource/Banner.svg" alt="DeMap"></h1>
 
 <p align="center">
-  <a href="./CHANGELOG.md"><img alt="Version" src="https://img.shields.io/badge/version-0.1.4-green.svg"/></a>
+  <a href="./CHANGELOG.md"><img alt="Version" src="https://img.shields.io/badge/version-0.1.5-green.svg"/></a>
   <a href="https://lucka.moe"><img alt="Author" src="https://img.shields.io/badge/author-Lucka-2578B5.svg"/></a>
   <a href="./LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-A31F34.svg"/></a><br>
   <img alt="Safari Support" src="https://img.shields.io/badge/safari-support-green.svg"/>
   <img alt="Chrome Support" src="https://img.shields.io/badge/chrome-support-green.svg"/>
-  <img alt="Edge Support" src="https://img.shields.io/badge/edge-untested-orange.svg"/>
+  <img alt="FireFox Support" src="https://img.shields.io/badge/firefox-support-green.svg"/>
+  <img alt="Edge Support" src="https://img.shields.io/badge/edge-broken-red.svg"/>
   <img alt="IE Support" src="https://img.shields.io/badge/ie-broken-red.svg"/>
 
 </p>
