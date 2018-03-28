@@ -1,4 +1,8 @@
 # Changelog
+## [0.1.4] - 2018-03-28
+### Added
+- Option: Prevent too close
+
 ## [0.1.3] - 2018-03-27
 ### Fixed
 - Minor SVG issue, more precise
