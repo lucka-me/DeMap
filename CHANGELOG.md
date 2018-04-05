@@ -1,4 +1,8 @@
 # Changelog
+## [0.1.6] - 2018-04-05
+### Changed
+- Optimized for mobile screen
+
 ## [0.1.5] - 2018-03-28
 ### Fixed
 - Map doesn't show in FireFox
