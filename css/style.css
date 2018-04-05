@@ -57,9 +57,9 @@ button:hover,.button:hover {
     display: -moz-box;
     display: -ms-flexbox;
     flex-direction: column;
-    width: 40%;
-    min-width: 460px;
-    margin: 16px;
+    width: 45%;
+    min-width: 400px;
+    padding: 16px;
 }
 
 .map-view {
@@ -72,9 +72,9 @@ button:hover,.button:hover {
 .console-block {
     display: flex;
     flex-direction: column;
-    width: 40%;
-    min-width: 460px;
-    margin: 16px;
+    width: 45%;
+    min-width: 400px;
+    padding: 16px;
 }
 
 .console-head {
