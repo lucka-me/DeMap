@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8" />
+    <head>
+        <title>DeMap with Baidu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=0.8">
+        <!--My Styles-->
+        <link type="text/css" rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Monda|Lobster">
+    </head>
+    <body>
+        <h1>DeMap with Baidu</h1>
+        <div class="main-box">
+            <div class="map-block">
+                <h2>Map</h2>
+                <div class="map-view" id="map"></div>
+            </div>
+            <div class="console-block">
+                <h2>Console</h2>
+                <h3 class="console-head">Points</h3>
+                <div class="console-body">
+                    <div class="console-row">
+                        <input type="text" class="console-input" id="pointNumInput" value="50"></input>
+                        <input type="checkbox" class="console-checkbox" id="isIncludingConners" checked>Conners</input>
+                        <input type="checkbox" class="console-checkbox" id="isPreventTooClose" checked>Prevent too close</input>
+                    </div>
+                    <div class="console-row">
+                        <button type="button" onclick="generatePoints()">Generate</button>
+                        <button type="button" onclick="clearPoints()">Clear</button>
+                    </div>
+                </div>
+                <h3 class="console-head">Delaunay</h3>
+                <div class="console-body">
+                    <div class="console-row">
+                        <div id="delaunayCount"></div>
+                        <button type="button" onclick="generateDelaunay()">Preview</button>
+                        <button type="button" onclick="clearDelaunay()">Clear</button>
+                    </div>
+                    <h4 class="console-head">Color</h4>
+                    <div class="console-row">
+                        #<input type="text" class="console-input" id="colorStart" value="4b6cb7"></input>
+                        →
+                        #<input type="text" class="console-input" id="colorEnd" value="182848"></input>
+                        <select class="console-select" id="colorStep">
+                            <option value ="8">8 steps</option>
+                            <option value ="16">16 steps</option>
+                            <option value ="32">32 steps</option>
+                            <option value ="0">Smooth</option>
+                        </select>
+                    </div>
+                    <div class="console-row">
+                        <button type="button" onclick="generateColor()">Random</button>
+                    </div>
+                    <h4 class="console-head">Elevation</h4>
+                    <div class="console-row">
+                        Set steps by:
+                        <input type="radio" class="console-radio" name="elevationStepType" value="height" checked>height</input>
+                        <input type="radio" class="console-radio" name="elevationStepType" value="order">order</input>
+                    </div>
+                    <div class="console-row">
+                        <button type="button" onclick="getElevation()">Get</button>
+                        <button type="button" onclick="generateElevationFill()">Generate</button>
+                    </div>
+                </div>
+                <h3 class="console-head">Save</h3>
+                <div class="console-body">
+                    <div class="console-row">
+                        PNG
+                        <input type="text" class="console-input" id="pngSize" value="2000"></input>
+                        px
+                    </div>
+                    <div class="console-row">
+                        <button type="button" onclick="generateSVG()">Generate SVG</button>
+                        <button type="button" onclick="generatePNG()">Generate PNG</button>
+                        <a style="display: none" id="downloadFile">Download</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-row">
+                <a class="footer-item" href="./cn" title="China">China</a>
+                <div class="footer-item">|</div>
+                <a class="footer-item" href="../" title="Global">Global</a>
+                <div class="footer-item">|</div>
+                <div class="footer-item">Baidu</div>
+            </div>
+            <div class="footer-row">
+                <div class="footer-item">0.1.6</div>
+                <a class="footer-item" href="https://github.com/lucka-me/DeMap" title="GitHub">
+                    <img
+                        src="../src/iconmonstr-github-1.svg"
+                        alt="GitHub"
+                        height="16px"
+                        width="16px" />
+                </a>
+                <a class="footer-item" href="https://lucka.moe" title="Blog" >Lucka</a>
+            </div>
+        </div>
+
+        <!--Scripts-->
+        <script src="../lib/DeKit.js"></script>
+        <script src="../lib/ColorKit.js"></script>
+        <script src="../lib/GraphicKit.js"></script>
+        <script src="../lib/DeMap-Baidu.js"></script>
+        <script type="text/javascript"
+            src="http://api.map.baidu.com/api?v=3.0&ak=zqhHZScE8FrnSA5TLmRfIhHlIA51AQRY&callback=initMap">
+        </script>
+    </body>
+</html>
