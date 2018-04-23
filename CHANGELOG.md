@@ -1,4 +1,8 @@
 # Changelog
+## [0.1.7] - 2018-04-23
+### Added
+- Elevetion service for BMap version, powered by Google Maps Elevation API
+
 ## [0.1.6] - 2018-04-05
 ### Changed
 - Optimized for mobile screen
