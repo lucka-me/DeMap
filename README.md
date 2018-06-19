@@ -1,12 +1,12 @@
 <h1 align=center><img src="./Resource/Banner.svg" alt="DeMap"></h1>
 
 <p align="center">
-  <a href="./CHANGELOG.md"><img alt="Version" src="https://img.shields.io/badge/version-0.1.7-green.svg"/></a>
+  <a href="./CHANGELOG.md"><img alt="Version" src="https://img.shields.io/badge/version-0.2.0-brightgreen.svg"/></a>
   <a href="https://lucka.moe"><img alt="Author" src="https://img.shields.io/badge/author-Lucka-2578B5.svg"/></a>
   <a href="./LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-A31F34.svg"/></a><br>
-  <img alt="Safari Support" src="https://img.shields.io/badge/safari-support-green.svg"/>
-  <img alt="Chrome Support" src="https://img.shields.io/badge/chrome-support-green.svg"/>
-  <img alt="FireFox Support" src="https://img.shields.io/badge/firefox-support-green.svg"/>
+  <img alt="Safari Support" src="https://img.shields.io/badge/safari-support-brightgreen.svg"/>
+  <img alt="Chrome Support" src="https://img.shields.io/badge/chrome-support-brightgreen.svg"/>
+  <img alt="FireFox Support" src="https://img.shields.io/badge/firefox-support-brightgreen.svg"/>
   <img alt="Edge Support" src="https://img.shields.io/badge/edge-broken-red.svg"/>
   <img alt="IE Support" src="https://img.shields.io/badge/ie-broken-red.svg"/>
 
@@ -36,6 +36,7 @@ See [CHANGELOG.md](./CHANGELOG.md).
 - [ ] Edit the points manually
 - [ ] Generate PNG
 - [ ] Clean the code of delaunay algorithm
+- [ ] Setting the width and height
 
 ## License
 The source code are [licensed under MIT](./LICENSE).
