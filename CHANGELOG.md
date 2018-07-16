@@ -1,5 +1,11 @@
 # Changelog
 ```markdown
+## [1.0] - 2018-07-16
+### Added
+- Generate PNG
+```
+
+```markdown
 ## [0.3.0] - 2018-07-16
 ### Added
 - Set the size of map and image

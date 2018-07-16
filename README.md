@@ -1,7 +1,7 @@
 <h1 align=center><img src="./Resource/Banner.svg" alt="DeMap"></h1>
 
 <p align="center">
-  <a href="./CHANGELOG.md"><img alt="Version" src="https://img.shields.io/badge/version-0.3.0-brightgreen.svg"/></a>
+  <a href="./CHANGELOG.md"><img alt="Version" src="https://img.shields.io/badge/version-1.0-brightgreen.svg"/></a>
   <a href="https://lucka.moe"><img alt="Author" src="https://img.shields.io/badge/author-Lucka-2578B5.svg"/></a>
   <a href="./LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-A31F34.svg"/></a><br>
   <img alt="Safari Support" src="https://img.shields.io/badge/safari-support-brightgreen.svg"/>
@@ -34,7 +34,7 @@ See [CHANGELOG.md](./CHANGELOG.md).
 ## TO-DO
 - [ ] Optimize the algorithm of generating random points
 - [ ] Edit the points manually
-- [ ] Generate PNG
+- [x] Generate PNG
 - [ ] Clean the code of delaunay algorithm
 - [x] Setting the width and height
 
