@@ -80,8 +80,11 @@
                     <div class="flex-box flex-dir-col margin-left-8">
                         <div class="flex-box text-nowarp a-baseline">
                             PNG
-                            <input type="text" id="pngSize" value="2000"></input>
+                            <input type="text" id="imgWidth" value="2000"></input>
+                            ×
+                            <input type="text" id="imgHeight" value="2000"></input>
                             px
+                            <button type="button" onclick="resizeMap()">Set</button>
                         </div>
                         <div class="flex-box text-nowarp a-baseline">
                             <button type="button" onclick="generateSVG()">Generate SVG</button>
@@ -100,7 +103,7 @@
                 <a class="footer-item" href="./baidu" title="Baidu">Baidu</a>
             </div>
             <div class="flex-box text-nowarp a-baseline">
-                <a class="footer-item" href="https://github.com/lucka-me/DeMap/blob/master/CHANGELOG.md" title="Changelog">0.2.0</a>
+                <a class="footer-item" href="https://github.com/lucka-me/DeMap/blob/master/CHANGELOG.md" title="Changelog">0.3.0</a>
                 <a class="footer-item" href="https://github.com/lucka-me/DeMap" title="GitHub">
                     <i class="fab fa-github fa-lg"></i>
                 </a>

@@ -1,7 +1,7 @@
 <h1 align=center><img src="./Resource/Banner.svg" alt="DeMap"></h1>
 
 <p align="center">
-  <a href="./CHANGELOG.md"><img alt="Version" src="https://img.shields.io/badge/version-0.2.0-brightgreen.svg"/></a>
+  <a href="./CHANGELOG.md"><img alt="Version" src="https://img.shields.io/badge/version-0.3.0-brightgreen.svg"/></a>
   <a href="https://lucka.moe"><img alt="Author" src="https://img.shields.io/badge/author-Lucka-2578B5.svg"/></a>
   <a href="./LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-A31F34.svg"/></a><br>
   <img alt="Safari Support" src="https://img.shields.io/badge/safari-support-brightgreen.svg"/>
@@ -36,9 +36,9 @@ See [CHANGELOG.md](./CHANGELOG.md).
 - [ ] Edit the points manually
 - [ ] Generate PNG
 - [ ] Clean the code of delaunay algorithm
-- [ ] Setting the width and height
+- [x] Setting the width and height
 
 ## License
 The source code are [licensed under MIT](./LICENSE).
 
-Please notice that the Google API Key included in the source code is owned by [Lucka](https://github.com/lucka-me) and **ONLY** for public useage in [the demo page](http://lucka.moe/DeMap/).
+Please notice that the Google API Key and Baidu API Key included in the source code is owned by [Lucka](https://github.com/lucka-me) and **ONLY** for public useage in [the demo pages](http://lucka.moe/DeMap/).

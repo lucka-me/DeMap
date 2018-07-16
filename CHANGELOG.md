@@ -1,5 +1,11 @@
 # Changelog
 ```markdown
+## [0.3.0] - 2018-07-16
+### Added
+- Set the size of map and image
+```
+
+```markdown
 ## [0.2.0] - 2018-06-19
 ### Changed
 - UI improved based on the work in Patroute-web
