@@ -1,5 +1,12 @@
 # Changelog
 ```markdown
+## [1.0.1] - 2018-07-16
+### Changed
+- UI improved
+- Merged some code
+```
+
+```markdown
 ## [1.0] - 2018-07-16
 ### Added
 - Generate PNG

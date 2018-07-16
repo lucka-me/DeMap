@@ -23,7 +23,7 @@
         </div>
         <div class="main-box">
             <div class="flex-1">
-                <div class="frame-32 min-w-400">
+                <div class="flex-box flex-dir-col frame-32 min-w-400">
                     <h2>Map</h2>
                     <div class="map bw-2 bd-primary" id="map"></div>
                 </div>
@@ -31,7 +31,7 @@
             <div class="flex-1">
                 <div class="flex-box flex-dir-col frame-32">
                     <h2>Console</h2>
-                    <h3>Points</h3>
+                    <h2>Points</h2>
                     <div class="flex-box flex-dir-col margin-left-8">
                         <div class="flex-box text-nowarp a-baseline">
                             <input type="text" id="pointNumInput" value="50"></input>
@@ -43,14 +43,14 @@
                             <button type="button" onclick="clearPoints()">Clear</button>
                         </div>
                     </div>
-                    <h3>Delaunay</h3>
+                    <h2>Delaunay</h2>
                     <div class="flex-box flex-dir-col margin-left-8">
                         <div class="flex-box text-nowarp a-baseline">
                             <div id="delaunayCount"></div>
                             <button type="button" onclick="generateDelaunay()">Preview</button>
                             <button type="button" onclick="clearDelaunay()">Clear</button>
                         </div>
-                        <h4>Color</h4>
+                        <h3>Color</h3>
                         <div class="flex-box text-nowarp a-baseline">
                             #<input type="text" id="colorStart" value="4b6cb7"></input>
                             →
@@ -65,7 +65,7 @@
                         <div class="flex-box text-nowarp a-baseline">
                             <button type="button" onclick="generateColor()">Random</button>
                         </div>
-                        <h4>Elevation</h4>
+                        <h3>Elevation</h3>
                         <div class="flex-box text-nowarp a-baseline">
                             Set steps by:
                             <input type="radio" name="elevationStepType" value="height" checked>height</input>
@@ -76,7 +76,7 @@
                             <button type="button" onclick="generateElevationFill()">Generate</button>
                         </div>
                     </div>
-                    <h3>Save</h3>
+                    <h2>Save</h2>
                     <div class="flex-box flex-dir-col margin-left-8">
                         <div class="flex-box text-nowarp a-baseline">
                             PNG
@@ -103,7 +103,7 @@
                 <a class="footer-item" href="../baidu" title="Baidu">Baidu</a>
             </div>
             <div class="flex-box text-nowarp a-baseline">
-                <a class="footer-item" href="https://github.com/lucka-me/DeMap/blob/master/CHANGELOG.md" title="Changelog">1.0</a>
+                <a class="footer-item" href="https://github.com/lucka-me/DeMap/blob/master/CHANGELOG.md" title="Changelog">1.0.1</a>
                 <a class="footer-item" href="https://github.com/lucka-me/DeMap" title="GitHub">
                     <i class="fab fa-github fa-lg"></i>
                 </a>
