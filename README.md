@@ -1,7 +1,7 @@
 <h1 align=center><img src="./Resource/Banner.svg" alt="DeMap"></h1>
 
 <p align="center">
-  <a href="./CHANGELOG.md"><img alt="Version" src="https://img.shields.io/badge/version-1.0-brightgreen.svg"/></a>
+  <a href="./CHANGELOG.md"><img alt="Version" src="https://img.shields.io/badge/version-1.0.2-brightgreen.svg"/></a>
   <a href="https://lucka.moe"><img alt="Author" src="https://img.shields.io/badge/author-Lucka-2578B5.svg"/></a>
   <a href="./LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-A31F34.svg"/></a><br>
   <img alt="Safari Support" src="https://img.shields.io/badge/safari-support-brightgreen.svg"/>
@@ -27,6 +27,9 @@ Generate Delaunay based on elevations of real world<br/>
 
 ### Algorithm
 The core algorithm of generating delaunay is modified from [zhiyishou's work](https://github.com/zhiyishou/Polyer/blob/master/lib/delaunay.js) which is based on [Bowyer–Watson algorithm](https://en.wikipedia.org/wiki/Bowyer–Watson_algorithm).
+
+## Requirement
+- [Lucka's CSS](https://github.com/lucka-me/toolkit/tree/master/Web/CSS)
 
 ## Changelog
 See [CHANGELOG.md](./CHANGELOG.md).
